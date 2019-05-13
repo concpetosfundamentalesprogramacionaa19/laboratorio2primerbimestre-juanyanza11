@@ -12,6 +12,7 @@ public class Laboratorio2 {
         // TODO code application logic here
 
         int nH, menu = 1, c = 1;
+        int r = 0;
         
         do {
         String nombre = "", apellido = "", mensaje = "", mensajeh = "",opcionalidad="";
@@ -19,9 +20,10 @@ public class Laboratorio2 {
  
         
         
-        int r = 1;
+        
+        r = r + 1; 
         Scanner datos = new Scanner(System.in);
-
+        
         double sueldo=0,pasaje = 0, bar = 0, salida = 0, total = 0;
         double tpasaje = 0, tsalida = 0, tbar = 0;
             // Ingreso de datos
@@ -84,9 +86,8 @@ public class Laboratorio2 {
             
            System.out.println("Desea continuar digite:\n(1.) Si\n(2.) No");
             menu = datos.nextInt();
-            if (menu == 1){
-                   r = r + 1;
-            }
+            
+         
      }while (menu ==1);   
     }
 
