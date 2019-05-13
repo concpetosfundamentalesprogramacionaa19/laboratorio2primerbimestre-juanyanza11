@@ -11,16 +11,19 @@ public class Laboratorio2 {
     public static void main(String[] args) {
         // TODO code application logic here
 
+        int nH, menu = 1, c = 1;
+        
+        do {
         String nombre = "", apellido = "", mensaje = "", mensajeh = "",opcionalidad="";
         String totales = "";
-        double sueldo, pasaje, bar, salida, total = 0;
-        double tpasaje = 0, tsalida = 0, tbar = 0;
-        int nH, menu = 1, c = 1;
+ 
+        
+        
         int r = 1;
         Scanner datos = new Scanner(System.in);
 
-        do {
-
+        double sueldo=0,pasaje = 0, bar = 0, salida = 0, total = 0;
+        double tpasaje = 0, tsalida = 0, tbar = 0;
             // Ingreso de datos
             System.out.println("Ingrese sus nombres");
             nombre = datos.nextLine();
